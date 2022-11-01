@@ -121,7 +121,7 @@ const DetailsPage = () => {
                 justifyContent='center' gap={5}
             >
                 <Box>
-                    <Image border="3px solid #d3d3d3" src={previewImg} />
+                    <Image w='439px' h='377px' border="3px solid #d3d3d3" src={previewImg} />
                 </Box>
                 <Box display='flex'
                     alignItems='center'
@@ -217,13 +217,6 @@ const DetailsPage = () => {
                                 color="white"
                                 w={{ base: "80vw", md: 'auto' }}>ADD TO BAG</Button>
                         </Box>
-                    </Box>
-                    <Box mt={{ base: 2, md: 5 }} mb={{ base: 5 }} display='flex'
-                        alignItems='center'
-                        justifyContent={{ base: 'center', md: 'flex-start' }}
-                        gap={2}>
-                        <BsSuitHeart fontSize='20px' cursor='pointer' />
-                        <Text>Add to wishlist</Text>
                     </Box>
                 </Box>
             </form>
