@@ -20,9 +20,9 @@ function App() {
           <Routes>
             <Route path='/' element={<Login />} />
             <Route path='/dashboard' element={<Dashboard />}>
-              <Route path='/dashboard/tshirts' element={<Tshirts />} />
-              <Route path='/dashboard/tracks' element={<Tracks />} />
-              <Route path='/dashboard/shorts' element={<Shorts />} />
+              <Route path='/dashboard/tshirts/:tshirts' element={<Tshirts />} />
+              <Route path='/dashboard/tracks/:tracks' element={<Tracks />} />
+              <Route path='/dashboard/shorts/:shorts' element={<Shorts />} />
               <Route path='/dashboard/details/:id' element={<DetailsPage />} />
               <Route path='/dashboard/orders' element={<Orders />} />
               <Route path='/dashboard/addproduct' element={<AddProduct />} />

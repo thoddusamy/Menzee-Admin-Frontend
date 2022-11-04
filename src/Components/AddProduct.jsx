@@ -146,7 +146,7 @@ const AddProduct = () => {
                     duration: 3500,
                     isClosable: true,
                 })
-                navigate('/dashboard/tshirts')
+                navigate('/dashboard/tshirts/:tshirts')
             } catch (error) {
                 console.log(error);
                 toast({
